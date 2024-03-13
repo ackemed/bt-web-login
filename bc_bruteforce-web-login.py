@@ -18,7 +18,7 @@ import pyfiglet
 # Função para enviar a requisição com username e uma senha da wordlist
 def enviar_requisicao(username, password):
     # Os Campos abaixo em url, headers e payload devem ser alterados conforme sua requisição.
-    url = 'https://vpn-poc-pritunl.flowti.com.br/auth/session'
+    url = 'https://exemplo.com.br/auth/session' # << Altere sua url de envio de formulario aqui
     headers = {
         'Sec-Ch-Ua': '"Not(A:Brand";v="24", "Chromium";v="122"',
         'Sec-Ch-Ua-Platform': '"Windows"',
@@ -26,11 +26,11 @@ def enviar_requisicao(username, password):
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.6261.112 Safari/537.36',
         'Content-Type': 'application/json',
         'Accept': '*/*',
-        'Origin': 'https://vpn-poc-pritunl.flowti.com.br',
+        'Origin': 'https://exemplo.com.br',
         'Sec-Fetch-Site': 'same-origin',
         'Sec-Fetch-Mode': 'cors',
         'Sec-Fetch-Dest': 'empty',
-        'Referer': 'https://vpn-poc-pritunl.flowti.com.br/login',
+        'Referer': 'https://exemplo.com.br/login',
         'Accept-Encoding': 'gzip, deflate, br',
         'Accept-Language': 'pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7',
         'Priority': 'u=1, i'
