@@ -54,13 +54,6 @@ python bc_bruteforce-web-login.py -w passwords.txt -t 10 -u admin -d 0.5
 
 Este comando envia requisições POST com uma lista de senhas do arquivo `passwords.txt`, utilizando 10 threads em cada lote, com o nome de usuário "admin" e um atraso de 0.5 segundos entre os lotes de requisições.
 
-## Contribuição
-
-Contribuições são bem-vindas! Antes de enviar uma pull request, certifique-se de que sua contribuição esteja alinhada com o objetivo deste projeto. Por favor, discuta quaisquer mudanças importantes que você gostaria de fazer.
-
-## Licença
-
-Este projeto é licenciado sob a [Inserir licença]. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
 
 ## Aviso Legal
 
