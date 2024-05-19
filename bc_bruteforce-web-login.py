@@ -7,7 +7,7 @@ import pyfiglet
 import sys
 
 def enviar_requisicao(username, password, use_base64, proxy):
-    url = 'http://10.0.10.12:13700/api/v1.0/login/medico'
+    url = 'ADICIONE AQUI A URL-ENDPOINT DE AUTENTICAÇÃO'
     headers = {
             'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36',
             'Access-Control-Allow-Methods': 'GET, POST, PATCH, PUT, DELETE, OPTIONS',
@@ -17,9 +17,6 @@ def enviar_requisicao(username, password, use_base64, proxy):
             'Access-Control-Allow-Headers': 'Origin, Content-Type, X-Auth-Token',
             'Sec-GPC': '1',
             'Accept-Language': 'en-US,en',
-            'Origin': 'http://10.0.10.12:13700',
-            'Referer': 'http://10.0.10.12:13700/login',
-            'Cookie': '__cookies_mv_portal_de_exames_2023.004.09={"token":"45.175.118.117"}; patient-user-login=0'
     }
     # Codificar o valor do parâmetro senha em Base64 se a opção --base64=senha for fornecida
     if use_base64 == 'senha':
